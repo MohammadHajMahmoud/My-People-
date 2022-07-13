@@ -1,0 +1,19 @@
+#cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 12px;
+    grid-row-gap: 12px;
+    }
+    .cards{
+        background-color: rgb(197, 206, 245);
+        padding: 15px;
+        border-radius: 15px;
+    }
+    p{
+        color: blue;
+        text-decoration: underline;
+    }
+    .cards:hover{
+        background-color: rgb(54, 189, 194);
+    }
